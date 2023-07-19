@@ -1,7 +1,7 @@
-## HTB Machine Catalog README:
+Claro, aquí tienes el README actualizado con el cambio del nombre del archivo a `htbmachines.sh`:
 
 ```markdown
-# HTB Machine Catalog CLI
+# HTB Machines CLI
 
 This Bash script provides a command-line interface (CLI) to interact with the HTB (Hack The Box) Machine Catalog. The script allows you to download or update the necessary files, search for machines by various criteria such as name, IP address, difficulty level, operating system, and required skills. Additionally, you can get the YouTube link to the resolution of a specific machine.
 
@@ -9,12 +9,12 @@ This Bash script provides a command-line interface (CLI) to interact with the HT
 
 - Download or update necessary files from the HTB Machine Catalog.
 - Search for machines by name, IP address, difficulty level, operating system, and required skills.
-- Obtain the YouTube link to the resolution of a specific machine.
+- Obtain the YouTube link for a machine's resolution.
 
 ## Usage
 
 ```bash
-./htb_catalog.sh [OPTIONS]
+./htbmachines.sh [OPTIONS]
 ```
 
 ### Options
@@ -37,20 +37,20 @@ This Bash script provides a command-line interface (CLI) to interact with the HT
 2. Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/<your_username>/htb-machine-catalog-cli.git
+git clone https://github.com/LuisRamos98/htb-machine-catalog-cli.git
 cd htb-machine-catalog-cli
 ```
 
 3. Make the script executable:
 
 ```bash
-chmod +x htb_catalog.sh
+chmod +x htbmachines.sh
 ```
 
 4. Run the script with the desired options:
 
 ```bash
-./htb_catalog.sh [OPTIONS]
+./htbmachines.sh [OPTIONS]
 ```
 
 5. Follow the on-screen instructions to interact with the HTB Machine Catalog.
@@ -60,49 +60,49 @@ chmod +x htb_catalog.sh
 - Update the necessary files:
 
 ```bash
-./htb_catalog.sh -u
+./htbmachines.sh -u
 ```
 
 - Search for a machine by name:
 
 ```bash
-./htb_catalog.sh -m Optimum
+./htbmachines.sh -m Optimum
 ```
 
 - Search for a machine by IP address:
 
 ```bash
-./htb_catalog.sh -i 10.10.10.8
+./htbmachines.sh -i 10.10.10.8
 ```
 
 - Get the YouTube link for a machine's resolution:
 
 ```bash
-./htb_catalog.sh -y Optimum
+./htbmachines.sh -y Optimum
 ```
 
 - Search for machines by difficulty level:
 
 ```bash
-./htb_catalog.sh -d Easy
+./htbmachines.sh -d Easy
 ```
 
 - Search for machines by operating system:
 
 ```bash
-./htb_catalog.sh -o Linux
+./htbmachines.sh -o Linux
 ```
 
 - Search for machines with a specific skill:
 
 ```bash
-./htb_catalog.sh -s Web
+./htbmachines.sh -s Web
 ```
 
 - Display the help panel:
 
 ```bash
-./htb_catalog.sh -h
+./htbmachines.sh -h
 ```
 
 ## Contributing
@@ -113,5 +113,3 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Please make sure to replace `<your_username>` in the README with your actual GitHub username before adding it to your repository.
