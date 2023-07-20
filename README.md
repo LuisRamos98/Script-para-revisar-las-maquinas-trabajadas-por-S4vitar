@@ -1,4 +1,4 @@
-Claro, aquí tienes el README actualizado con el cambio del nombre del archivo a `htbmachines.sh`:
+#Script-para-revisar-las-maquinas-trabajadas-por-S4vitar
 
 ```markdown
 # HTB Machines CLI
